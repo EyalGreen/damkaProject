@@ -1,0 +1,105 @@
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+  }
+
+  .btn {
+    /* display:block; */
+    height: 70px;
+    width: 70px;
+    /* border-radius: 50%; */
+    /*  border: 1px solid red;*/
+    margin: 0;
+  }
+
+  .Black {
+    height: 70px;
+    width: 70px;
+
+    background-color: black;
+  }
+
+  .opt {
+    background-color: red;
+  }
+
+  .pOpt {
+    background-color: yellow;
+  }
+
+  .White {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+
+  }
+
+  .BlackPlayers {
+    height: 70px;
+    width: 70px;
+
+    background-image: url('../Images/pice.png');
+    background-position: center;
+    
+  }
+
+  .WhitePlayers {
+    height: 70px;
+    width: 70px;
+    background-image: url('../Images/whitePice.png');
+    background-position: center
+  }
+
+  .WhiteQueen {
+    background-image: url('../Images/WhiteQueen.png');
+    background-position: center;
+    background-size: 65px;
+    background-repeat: no-repeat;
+
+  }
+
+  .BlackQueen {
+    background-image: url('../Images/BlackQueen.png');
+    background-position: center;
+    background-size: 65px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+
+  }
+
+  #table {
+    margin: 0 auto;
+  }
+
+  #resetButton {
+  /* position: relative; */
+  left: 0;
+  width: 100px;
+  height: 50px;
+  font: 20px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px auto;
+
+  transition: 0.5s;
+}
+
+#resetButton:hover {
+  transform: scale(1.2);
+  background-color: green;
+}
+  h1 {
+    text-align: center;
+  }
